@@ -1,0 +1,149 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-24T03:04:15.417Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2321745500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should be able to login with valid credential",
+        "description": "",
+        "id": "techfios-billing-login-page-functionality-validation-with-data-from-db;user-should-be-able-to-login-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 215002600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3036711100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "steps.StepDefinition.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3522113400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"username\" from mysql database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_from_mysql_database(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3173285500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"password\" from mysql database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_from_mysql_database(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5906259200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "steps.StepDefinition.user_clicks_on_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 240999600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "steps.StepDefinition.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Dbfeature"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@DbScenario1"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios billing login page functionality validation with data from DB",
+    "description": "",
+    "id": "techfios-billing-login-page-functionality-validation-with-data-from-db",
+    "keyword": "Feature",
+    "uri": "classpath:features/LoginWithDataFromDB.feature",
+    "tags": [
+      {
+        "name": "@Dbfeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 12
+        }
+      }
+    ]
+  }
+]
